@@ -102,6 +102,7 @@ define([
             "recipient":"{{Event." + eventDefinitionKey + "}}",
             "isSendToKustomer" : isSendToKustomer
         }];
+        
         //"to": "{{Contact.Email}}"
         payload['metaData'].isConfigured = true;
 
